@@ -11,22 +11,21 @@ Kelas : TI.22.A5
 Mata Kuliah : Pemrograman Mobile 1
 
 ## Tugas
-```
+
 Buatlah tampilan menu Versi 02 dari project-project yang sudah dibuat sebelumnya 
 
 dengan tambahan memanggil method Maps
 
 dengan tampilan sebagai berikut :
 
-![Picture](https://github.com/VivieZuliani/ProjectIntent_Image/assets/130271255/412b7f22-b8c1-43af-b82a-7995398e33c3)
-```
+<img width="364" alt="Screenshot 2023-11-29 233050" src="https://github.com/VivieZuliani/ProjectIntent_Image/assets/130271255/32274b4c-eb4e-4805-be92-a4f70a2ecab4">
 
 
 ## Hasil Run
 > Berikut merupakan hasil running dari aplikasi yang telah saya buat :
 
-https://github.com/VivieZuliani/ProjectIntent/assets/130271255/2edf1fa3-1ae8-49e2-8dc9-bf5c93d32598
 
+https://github.com/VivieZuliani/ProjectIntent_Image/assets/130271255/39875417-66a4-4240-9313-c7c512455a98
 
 
 ## Kode dan Keterangan
