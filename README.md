@@ -18,10 +18,9 @@ dengan tambahan memanggil method Maps
 
 dengan tampilan sebagai berikut :
 
-![Picture](https://github.com/VivieZuliani/ProjectIntent_Image/assets/130271255/f3eff304-835a-47dd-9556-abbed963847b)
-
-
+![Picture](https://github.com/VivieZuliani/ProjectIntent_Image/assets/130271255/412b7f22-b8c1-43af-b82a-7995398e33c3)
 ```
+
 
 ## Hasil Run
 > Berikut merupakan hasil running dari aplikasi yang telah saya buat :
