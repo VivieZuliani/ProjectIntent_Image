@@ -23,7 +23,9 @@ dengan tampilan sebagai berikut :
 > Berikut merupakan hasil running dari aplikasi yang telah saya buat :
 
 
-https://github.com/VivieZuliani/ProjectIntent_Image/assets/130271255/39875417-66a4-4240-9313-c7c512455a98
+
+https://github.com/VivieZuliani/ProjectIntent_Image/assets/130271255/8d2c2465-e442-4cac-aa28-af9626129544
+
 
 
 ## Kode dan Keterangan
