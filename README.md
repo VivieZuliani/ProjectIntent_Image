@@ -38,7 +38,7 @@ Berikut merupakan kode pada `activity_map.xml`:
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall2"
+    android:background="@drawable/wallp2"
     android:orientation="vertical"
     tools:context=".MapActivity">
 
@@ -176,102 +176,106 @@ Pada bagian `activity_home.xml`, kita ubah dari yang awalnya `<Button>` menjadi 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home"
+    android:background="@drawable/wallp3"
     tools:context=".home">
 
     <TextView
-        android:id="@+id/imageView"
-        android:layout_width="422dp"
-        android:layout_height="786dp"
-        android:layout_marginTop="66dp"
-        android:text="ALL PROJECT"
+        android:id="@+id/artikel_heading"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/SkyBlue"
+        android:padding="@dimen/padding_regular"
+        android:text="P R O J E C T"
         android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textColor="@color/white"
         android:textSize="50dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/button_move_hallo"
-        android:layout_width="140dp"
-        android:layout_height="100dp"
+        android:layout_width="151dp"
+        android:layout_height="160dp"
         android:background="@drawable/hai"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.36" />
 
     <ImageButton
         android:id="@+id/button_move_count"
-        android:layout_width="140dp"
-        android:layout_height="100dp"
+        android:layout_width="225dp"
+        android:layout_height="150dp"
         android:background="@drawable/calc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.354" />
 
     <ImageButton
         android:id="@+id/button_move_to_other_scroll"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="140dp"
+        android:layout_height="132dp"
         android:background="@drawable/news"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <ImageButton
         android:id="@+id/buttonMoveToOtherActivity"
-        android:layout_width="140dp"
-        android:layout_height="100dp"
+        android:layout_width="185dp"
+        android:layout_height="150dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.524" />
+        app:layout_constraintVertical_bias="0.624" />
 
     <ImageButton
         android:id="@+id/button_move_to_alarm"
-        android:layout_width="130dp"
-        android:layout_height="126dp"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
         android:background="@drawable/jam"
         android:onClick="moveToAnotherActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527"
+        app:layout_constraintVertical_bias="0.634"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/button_map"
-        android:layout_width="119dp"
-        android:layout_height="123dp"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
         android:background="@drawable/map"
         android:onClick="map"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529"
+        app:layout_constraintVertical_bias="0.634"
         tools:ignore="SpeakableTextPresentCheck" />
 
 
@@ -370,9 +374,9 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/duck"
+        android:icon="@drawable/wallp5"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/duck"
+        android:roundIcon="@drawable/wallp5"
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.Mobile_icon"
         tools:targetApi="31">
@@ -407,7 +411,6 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
     </application>
 
 </manifest>
-
 ```
 
 
@@ -419,7 +422,7 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/duck"
+    android:background="@drawable/wallp2"
     tools:context="com.example.mobile_icon.MainActivity">
 
     <TextView
@@ -451,7 +454,7 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall"
+    android:background="@drawable/wallp2"
     tools:context=".FiboActivity">
 
     <Button
@@ -521,7 +524,7 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall2"
+    android:background="@drawable/wallp2"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".pertamaActivity">
@@ -556,19 +559,6 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_message_reply" />
 
-    <TextView
-        android:id="@+id/text_message_reply"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
-        android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/text_header_reply"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
-
     <EditText
         android:id="@+id/editText_main"
         android:layout_width="224dp"
@@ -576,13 +566,27 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="16dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:ems="10"
         android:hint="@string/editText_main"
         android:inputType="textLongMessage"
         app:layout_constraintEnd_toEndOf="@id/button_main"
         app:layout_constraintStart_toStartOf="@id/button_main"
         app:layout_constraintTop_toTopOf="@id/button_main" />
+
+    <TextView
+        android:id="@+id/text_message_reply"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_header_reply"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -595,65 +599,56 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall2"
+    android:background="@drawable/wallp2"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".KeduaActivity">
+
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_header" />
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="98dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="48dp"
+        android:onClick="launchSecondActivity"
+        android:text="@string/button_second"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/text_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_header"
-        android:textColor="@color/black"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
+        android:text="@string/text_header_reply"
+        android:textSize="23dp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="89dp" />
 
     <EditText
         android:id="@+id/editText_second"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="480dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:textColor="@color/black"
         android:hint="@string/editText_second"
         android:inputType="textLongMessage"
+        android:textColor="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_header" />
-
-    <TextView
-        android:id="@+id/text_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/editText_second"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"/>
-
-    <Button
-        android:id="@+id/button_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_second"
-        android:onClick="returnReply"
-        app:layout_constraintTop_toBottomOf="@+id/text_message"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="-30dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="0dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -666,19 +661,19 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall"
+    android:background="@drawable/wallp2"
     >
 
     <TextView
         android:id="@+id/artikel_heading"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/black"
+        android:layout_height="65dp"
+        android:background="@color/white"
         android:padding="@dimen/padding_regular"
         android:text="@string/articel_title"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textColor="@android:color/white"
+        android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold" />
 
     <ScrollView
@@ -695,10 +690,12 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
                 android:id="@+id/arikel_subheading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/padding_regular"
+                android:padding="20dp"
                 android:text="@string/articel_subtitle"
+                android:textSize="26dp"
                 android:textAlignment="center"
                 android:textColor="@color/red"
+                android:textStyle="bold"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault"/>
 
             <TextView
@@ -706,9 +703,10 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
-                android:textColor="@color/black"
                 android:lineSpacingExtra="@dimen/padding_regular"
-                android:text="@string/articel_text" />
+                android:text="@string/articel_text"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
@@ -724,7 +722,7 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wall2"
+    android:background="@drawable/wallp2"
     tools:context=".SetAlarm">
 
     <TimePicker
@@ -777,7 +775,7 @@ Selanjutnya kita akan ke tahap berikutnya yaitu membuat menu untuk menampilkan s
         <ImageView
             android:layout_width="450dp"
             android:layout_height="match_parent"
-            android:background="@drawable/duck" />
+            android:background="@drawable/wallp5" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
